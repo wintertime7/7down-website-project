@@ -1,0 +1,13 @@
+.footer {
+  background-color: aquamarine;
+  flex-grow: 1;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-left, .footer-middle, .footer-right {
+  flex: 1 1 30%;
+  display: flex;
+}
