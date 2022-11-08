@@ -1,11 +1,11 @@
 .news-row {
-  background-color: lightcoral;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   height: 300px;
   margin-top: 20px;
+  background-color: rgba(36, 37, 42, 0.8)
 }
 
 .news-column {
@@ -27,7 +27,7 @@
 }
 
 .news-field:hover {
-  border: 2px black solid;
+  border: 2px var(--orangish-color-hover) solid;
 }
 
 .news-image {

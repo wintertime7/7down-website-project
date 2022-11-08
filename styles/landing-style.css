@@ -8,7 +8,8 @@
 
 .bottom-view {
   min-height: 100vh;
-  background-color: orange;
+  background-image: url("https://i.gifer.com/68u.gif");
+  background-size: cover;
   display: flex;
   flex-direction: column;
 }

@@ -5,9 +5,39 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  background-color: rgba(36, 37, 42, 0.9);
 }
 
 .footer-left, .footer-middle, .footer-right {
   flex: 1 1 30%;
   display: flex;
+  font-family: 'Poppins', sans-serif;
+  color: var(--white-color);
+  font-weight: 300;
+}
+
+.footer-middle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-right {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.footer-left p {
+  margin-left: 30px;
+}
+
+.footer-right h1 {
+  margin-right: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.footer-right h1:hover {
+  color: var(--orangish-color-hover);
 }
