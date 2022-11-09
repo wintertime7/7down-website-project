@@ -1,12 +1,11 @@
 .footer {
-  background-color: aquamarine;
   flex-grow: 1;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   background-color: rgba(36, 37, 42, 0.9);
-  margin-top: 10px;
+  max-height: 15vh;
 }
 
 .footer-left,
