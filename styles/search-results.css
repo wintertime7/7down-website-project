@@ -4,13 +4,14 @@
   flex-direction: column;
 }
 
-body{
+body {
   background-image: url("/images/pexels-pixabay-261821.jpg");
 }
 
 .orange-text {
   color: var(--orangish-color-hover);
 }
+
 .search-section {
   width: 100%;
   display: flex;
@@ -82,7 +83,7 @@ body{
   text-align: center;
 }
 
-.card a:hover{
+.card a:hover {
   color: var(--orangish-color-hover);
 }
 
@@ -93,7 +94,7 @@ body{
   transition: border 0.3s ease 0s;
 }
 
-.card img:hover{
+.card img:hover {
   border: 2px var(--orangish-color-hover) solid;
 }
 
@@ -107,7 +108,9 @@ body{
   background-color: rgba(36, 37, 42, 0.9);
 }
 
-.footer-left, .footer-middle, .footer-right {
+.footer-left,
+.footer-middle,
+.footer-right {
   flex: 1 1 30%;
   display: flex;
   font-family: 'Poppins', sans-serif;

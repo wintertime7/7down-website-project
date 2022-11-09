@@ -9,7 +9,9 @@
   margin-top: 10px;
 }
 
-.footer-left, .footer-middle, .footer-right {
+.footer-left,
+.footer-middle,
+.footer-right {
   flex: 1 1 30%;
   display: flex;
   font-family: 'Poppins', sans-serif;

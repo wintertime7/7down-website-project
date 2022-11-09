@@ -1,6 +1,6 @@
 function validateForm() {
   var input = document.getElementById("userInput").value;
-  
+
   if (input == "it" || input == "IT") {
     window.location.href = "searchresults.html";
     return false;
