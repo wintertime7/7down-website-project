@@ -65,13 +65,13 @@ body{
 .results-section {
   background-color: rgba(36, 37, 42, 0.5);
   justify-content: center;
-  align-items: center;
-  min-height: 50vh;
+  align-items: top;
+  min-height: 60vh;
   display: flex;
 }
 
 .card-wrapper {
-  padding-top: 10px;
+  padding-top: 15px;
   display: flex;
   flex-direction: row;
   list-style-type: none;
@@ -98,6 +98,7 @@ body{
 }
 
 .footer {
+  max-height: 15vh;
   flex-grow: 1;
   display: flex;
   flex-wrap: wrap;
