@@ -16,6 +16,11 @@
   align-items: center;
   border-radius: 60px;
   padding: 10px 20px;
+  transition: box-shadow 0.3s ease 0s;
+}
+
+.search-bar:hover {
+  box-shadow: 0 1px 0 var(--orangish-color-hover);
 }
 
 .search-bar input {
