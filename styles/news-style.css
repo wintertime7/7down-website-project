@@ -22,12 +22,14 @@
   background-color: var(--white-color-darker);
   display: flex;
   cursor: pointer;
-  transition: border 0.3s ease 0s;
+  transition: outline 0.3s ease 0s;
   border-radius: 20px;
 }
 
 .news-field:hover {
-  border: 2px var(--orangish-color-hover) solid;
+  outline-style: solid;
+  outline-color: var(--orangish-color-hover);
+  outline-width: 2px;
 }
 
 .news-image {
