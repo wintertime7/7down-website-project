@@ -5,20 +5,6 @@
   flex-direction: column;
 }
 
-.bottom-view {
-  min-height: 100vh;
-  background-color: gray;
-  display: flex;
-  flex-direction: column;
-}
-
-.search-results{
-  min-height: auto;
-  background-color: gray;
-  display: flex;
-  flex-direction: column;
-}
-
 .search-section {
   width: 100%;
   display: flex;
@@ -70,76 +56,81 @@
   background: var(--orangish-color-hover);
 }
 
-.results-row{
+.results-section {
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  background-color: grey;
+  display: flex;
+}
+
+.card-wrapper {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+.card {
+  padding: 10px;
+  text-align: center;
+}
+
+.card a:hover{
+  color: var(--orangish-color-hover);
+}
+
+.card img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  transition: border 0.3s ease 0s;
+}
+
+.card img:hover{
+  border: 2px var(--orangish-color-hover) solid;
+}
+
+.footer {
+  background-color: aquamarine;
+  flex-grow: 1;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  height: 300px;
-  margin-top: 10px;
-  background-color: rgba(36, 37, 42, 0.8)
+  background-color: rgba(36, 37, 42, 0.9);
 }
 
-.results-column{
+.footer-left, .footer-middle, .footer-right {
   flex: 1 1 30%;
-  height: 300px;
+  display: flex;
+  font-family: 'Poppins', sans-serif;
+  color: var(--white-color);
+  font-weight: 300;
+}
+
+.footer-middle {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.results-field{
-  height: 90%;
-  width: 90%;
-  background-color: var(--white-color-darker);
+.footer-right {
   display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.footer-left p {
+  margin-left: 30px;
+}
+
+.footer-right h1 {
+  margin-right: 30px;
   cursor: pointer;
-  transition: border 0.3s ease 0s;
-  border-radius: 20px;
+  transition: all 0.3s ease 0s;
 }
 
-.results-field:hover {
-  border: 2px var(--orangish-color-hover) solid;
-}
-
-.results-image {
-  flex: 50%;
-  display: flex;
-}
-
-.results-text {
-  flex: 50%;
-  display: flex;
-  flex-direction: column;
-}
-
-.results-image img {
-  width: 100%;
-  height: 100%;
-  border-radius: 20px 0 0 20px;
-}
-
-.results-text h1, h2, p {
-  margin: 0 10px 0 10px;
-}
-
-.results-text h1 {
-  margin-top: 10px;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 500;
-  font-size: 18px;
-}
-
-.results-text h2 {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 300;
-  font-style: italic;
-  font-size: 16px;
-}
-
-.results-text p {
-  font-family: 'Ubuntu', sans-serif;
-  font-weight: 300;
-  font-size: 14px;
-  text-align: justify;
+.footer-right h1:hover {
+  color: var(--orangish-color-hover);
 }
