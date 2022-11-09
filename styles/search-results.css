@@ -5,6 +5,9 @@
   flex-direction: column;
 }
 
+.orange-text {
+  color: var(--orangish-color-hover);
+}
 .search-section {
   width: 100%;
   display: flex;
