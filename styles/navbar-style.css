@@ -14,17 +14,8 @@ header {
 }
 
 .nav-logo {
+  width: 70px;
   cursor: pointer;
-  color: var(--white-color);
-  font-family: 'Ubuntu', sans-serif;
-  font-weight: 400;
-  font-style: italic;
-  font-size: 24px;
-  transition: all 0.3s ease 0s;
-}
-
-.nav-logo:hover {
-  color: var(--orangish-color-hover);
 }
 
 .nav-links {
