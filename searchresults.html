@@ -11,73 +11,74 @@
   <link rel="stylesheet" href="./styles/search-results.css">
 </head>
 
-<section class="top-view">
-  <header>
-    <h1 class="nav-logo">7DOWN</h1>
-    <nav>
-      <ul class="nav-links">
-        <li><a href="#">home</a></li>
-        <li><a href="#news-section">news</a></li>
-        <li><a href="#">hmmm</a></li>
-      </ul>
-    </nav>
-    <a href="#"><button class="nav-button">log in</button></a>
-  </header>
-  <section class="search-section">
-    <form action="https://www.va.lv" target="_blank" class="search-bar">
-      <input type="text" placeholder="search.." name="search">
-      <button type="submit"><img src="./images/search-icon.png"></button>
-    </form>
+<body>
+  <section class="top-view">
+    <header>
+      <img class="nav-logo" src="/images/logo.png" onclick="window.location.href = 'index.html'">
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">home</a></li>
+          <li><a href="#news-section">news</a></li>
+          <li><a href="searchresults.html">hmmm</a></li>
+        </ul>
+      </nav>
+      <a href="#"><button class="nav-button">log in</button></a>
+    </header>
+    <section class="search-section">
+      <form onsubmit="return validateForm()" name="searchForm" class="search-bar">
+        <input id="userInput" name="search" type="text" placeholder="search..">
+        <button type="submit"><img src="./images/search-icon.png"></button>
+      </form>
+    </section>
   </section>
-</section>
 
-<section class="results-section" id="results-section">
-  <ul class="card-wrapper">
-    <li class="card"><a href=""><img
-          src='https://images.unsplash.com/photo-1611916656173-875e4277bea6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHw&ixlib=rb-1.2.1&q=80&w=400'
-          alt=''></a>
+  <section class="results-section" id="results-section">
+    <ul class="card-wrapper">
+      <li class="card"><a href=""><img
+            src='https://images.unsplash.com/photo-1611916656173-875e4277bea6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHw&ixlib=rb-1.2.1&q=80&w=400'
+            alt=''></a>
 
-      <h3><a href="">Riga Technical University</a></h3>
+        <h3><a href="">Riga Technical University</a></h3>
 
-    </li>
-    <li class="card"><a href=""><img
-          src='https://images.unsplash.com/photo-1611083360739-bdad6e0eb1fa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHw&ixlib=rb-1.2.1&q=80&w=400'
-          alt=''></a>
-
-      <h3><a href="">Vidzeme University of Applied Sciences</a></h3>
-
-    </li>
-    <li class="card"><a href=""><img
-          src='https://images.unsplash.com/photo-1613230485186-2e7e0fca1253?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHw&ixlib=rb-1.2.1&q=80&w=400'
-          alt=''></a>
-
-      <h3><a href="">Latvian University</a></h3>
-
-    </li>
-  </ul>
-</section>
-
-<section class="footer">
-  <div class="footer-left">
-    <ul class="contact-list">
-      <li>
-        <p>phone: 6969420</p>
       </li>
-      <li>
-        <p>e-mail: contact@7down.org</p>
+      <li class="card"><a href=""><img
+            src='https://images.unsplash.com/photo-1611083360739-bdad6e0eb1fa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHw&ixlib=rb-1.2.1&q=80&w=400'
+            alt=''></a>
+
+        <h3><a href="">Vidzeme University of Applied Sciences</a></h3>
+
       </li>
-      <li>
-        <p>address: valmiera, latvia</p>
+      <li class="card"><a href=""><img
+            src='https://images.unsplash.com/photo-1613230485186-2e7e0fca1253?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHw&ixlib=rb-1.2.1&q=80&w=400'
+            alt=''></a>
+
+        <h3><a href="">Latvian University</a></h3>
+
       </li>
     </ul>
-  </div>
-  <div class="footer-middle">
-    <p>made by 7DOWN</p>
-  </div>
-  <div class="footer-right">
-    <h1>F.A.Q</h1>
-  </div>
-</section>
+  </section>
+
+  <section class="footer">
+    <div class="footer-left">
+      <ul class="contact-list">
+        <li>
+          <p>phone: <span class="orange-text">6969420</span></p>
+        </li>
+        <li>
+          <p>e-mail: contact@moc.edu.com</p>
+        </li>
+        <li>
+          <p>address: valmiera, <span class="orange-text">latvia</span></p>
+        </li>
+      </ul>
+    </div>
+    <div class="footer-middle">
+      <p>made by <span class="orange-text">MOC</span></p>
+    </div>
+    <div class="footer-right">
+      <h1>F.A.Q</h1>
+    </div>
+  </section>
 
 </body>
 
