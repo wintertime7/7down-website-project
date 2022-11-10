@@ -5,7 +5,7 @@ function validateForm() {
     window.location.href = "searchresults.html";
     return false;
   } else if (input == "via" || input == "VIA" || input == "ViA") {
-    window.location.href = "https://www.va.lv";
+    window.location.href = "profile.html";
     return false;
   }
 }

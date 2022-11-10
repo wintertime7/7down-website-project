@@ -1,0 +1,237 @@
+body {
+    background-image: url('../images/bg-main.webp');
+  }
+  
+  .course-top {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(36, 37, 42, 0.9);
+  }
+  
+  .profile-top {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .profile-img {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .profile-img img {
+    border-radius: 20px 0 0 20px;
+    border-radius: 50%;
+    border: 5px solid var(--orangish-color-hover);
+    display: flex;
+    height: 200px;
+  }
+  
+  .profile-name {
+    flex: 3;
+    color: var(--white-color);
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .profile-name h1, p, a {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .profile-name h1 {
+    font-weight: 500;
+    font-size: 26px;
+  }
+  
+  .prof-span a {
+    color: var(--orangish-color-hover);
+  }
+  
+  .course-info {
+    display: flex;
+    background-color: rgba(36, 37, 42, 0.9);
+    flex-grow: 1;
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: var(--white-color);
+    padding: 20px 0 20px 0;
+  }
+  
+  .description {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .description-element ul {
+    list-style-type: none;
+    width: 200px;
+  }
+
+  .description h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-right: 160px;
+  }
+
+  .description li {
+    list-style: none;
+  }
+
+  .description a:hover {
+    color: var(--orangish-color-hover);
+  }
+  
+  .course-section {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .upcoming {
+    display: flex;
+    background-color: #eee;
+    border-top: 2px #666 solid;
+    width: 220px;
+    border-radius: 0 0 20px 20px;
+  }
+  
+  .upcoming-elements {
+    margin: 10px 10px 10px 10px;
+  }
+  
+  .upcoming-elements ul {
+    list-style: none;
+  }
+  
+  .upcoming-elements p, a {
+    font-family: 'Poppins', sans-serif;
+    color: #666;
+    font-size: 12px;
+  }
+  
+  .upcoming-elements li p .event-name a {
+    color: var(--orangish-color-hover);
+  }
+  
+  .course-table {
+    display: flex;
+  }
+  
+  .course-left {
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  
+  .course-right {
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  
+  .course-section h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    margin-left: 28px;
+    color: rgba(36, 37, 42, 0.9);
+  }
+
+  h2 {
+    color: rgba(36, 37, 42, 0.9);
+  }
+  
+  .course-section .anotation {
+    font-size: 16px;
+  }
+  
+  .thinner {
+    font-weight: 300;
+  }
+  
+  .course-section .entrance {
+    margin-top: 20px;
+  }
+  
+  .course-section .entrance ul {
+    list-style: none;
+    margin-top: 10px;
+  }
+  
+  .course-section .entrance h3 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  .course-section .statistics {
+    margin-top: 20px;
+  }
+  
+  .nav-links li,
+  a,
+  .nav-button {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    color: var(--white-color);
+    font-size: 16px;
+  }
+  
+  .materials {
+    margin-top: 20px;
+    background-color: rgba(36, 37, 42, 0.9);
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 90%;
+    border-radius: 20px;
+  }
+  
+  .available-mat {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .available-mat h1 {
+    align-self: center;
+    color: var(--white-color);
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .the-materials {
+    min-width: 100%;
+    padding-bottom: 20px;
+  }
+  
+  .the-materials ul {
+    list-style: none;
+  }
+  
+  .the-materials p {
+    color: var(--white-color);
+    font-family: 'Poppins', sans-serif;
+    margin-left: 20px;
+  }
+  
+  
+  .the-materials .mat-link {
+    color: var(--orangish-color-hover);
+  }
+  
+  .footer {
+    margin-top: 20px;
+    flex-grow: 0;
+    min-height: 100px;
+  }

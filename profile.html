@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MOC</title>
+  <link rel="stylesheet" href="./styles/main-style.css">
+  <link rel="stylesheet" href="./styles/navbar-style.css">
+  <link rel="stylesheet" href="./styles/landing-style.css">
+  <link rel="stylesheet" href="./styles/search-style.css">
+  <link rel="stylesheet" href="./styles/footer-style.css">
+  <link rel="stylesheet" href="./styles/profilepage-style.css">
+  <link rel="stylesheet" href="./styles/profilenews-style.css">
+  <link rel="stylesheet" href="./styles/carousel-style.css">
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <section class="course-top">
+    <header>
+      <img class="nav-logo" src="./images/logo.png" onclick="window.location.href = 'index.html'">
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">home</a></li>
+          <li><a href="index.html#news-section">news</a></li>
+        </ul>
+      </nav>
+      <a href="#"><button class="nav-button">log in</button></a>
+    </header>
+    <section class="profile-top">
+      <div class="profile-img">
+        <img src="./images/via_logo.png" alt="logo">
+      </div>
+      <div class="profile-name">
+        <h1>Vidzeme University of Applied Sciences</h1>
+        <p>Cēsu iela 4, Valmiera, Latvia - <span class="prof-span"><a href="https://www.va.lv" target="_blank">Visit ViA page!</a></span></p>
+      </div>
+    </section>
+  </section>
+  <section class="course-info">
+    <section class="description">
+        <h1>Study fields</h1>
+        <ol>
+            <li><a href="https://va.lv/lv/studijas/bakalaurs/biznesa-vadiba/par-programmu" target="_blank">Business Management</a></li>
+            <li><a href="https://va.lv/lv/studijas/bakalaurs/informacijas-tehnologijas/par-programmu" target="_blank">Information Technologies</a></li>
+            <li><a href="https://va.lv/lv/studijas/bakalaurs/komunikacija-un-sabiedriskas-attiecibas/par-programmu" target="_blank">Communication and Public Relations</a></li>
+            <li><a href="https://va.lv/lv/studijas/bakalaurs/mediju-studijas-un-zurnalistika/par-programmu" target="_blank">Media Studies and Journalism</a></li>
+            <li><a href="https://va.lv/lv/studijas/bakalaurs/mehatronika/par-programmu" target="_blank">Mechatronics</a></li>
+            <li><a href="https://va.lv/lv/studijas/bakalaurs/turisma-organizacija-un-vadiba/par-programmu" target="_blank">Tourism Organization and Management</a></li>
+        </ol>
+    </section>
+    <section class="course-section">
+      <h1 style="color: white;">News/Announcements</h1>
+      <div class="course-table">
+        <div class="course-left">
+            <div class="news-column">
+                <div class="news-field">
+                  <div class="news-image">
+                    <img src="./images/programming.jpg" alt="classrom">
+                  </div>
+                  <div class="news-text">
+                    <h1>Hackaton</h1>
+                    <h2><span class="orange-text">"GameJam++"</span></h2>
+                    <h2>Vidzeme University of Applied Sciences</h2>
+                    <p>10.10.22</p>
+                    <br>
+                    <p>All students are welcome to join our 24 hour challenge! Register here</p>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="course-right">
+            <div class="news-column">
+                <div class="news-field">
+                  <div class="news-image">
+                    <img src="./images/PublicLecture_logoformainpage.jpg" alt="classrom">
+                  </div>
+                  <div class="news-text">
+                    <h1>Open lectures</h1>
+                    <h2><span class="orange-text">"Explore ViA"</span></h2>
+                    <h2>Vidzeme University of Applied Sciences</h2>
+                    <p>22.10.22 - 28.10.22</p>
+                    <br>
+                    <p>From October 22 to October 28, everyone has the opportunity to attend one of the open classes!</p>
+      
+                  </div>
+                </div>
+              </div>
+        </div>
+      </div>
+    </section>
+  </section>
+  <section class="materials">
+    <!-- Slideshow container -->
+<div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="images/img1.jpg" style="width:100%">
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="images/img2.jpg" style="width:100%">
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="images/img3.jpg" style="width:100%">
+    </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  </section>
+  <section class="footer">
+    <div class="footer-left">
+      <ul class="contact-list">
+        <li>
+          <p>phone: <span class="orange-text">6969420</span></p>
+        </li>
+        <li>
+          <p>e-mail: contact@moc.edu.com</p>
+        </li>
+        <li>
+          <p>address: valmiera, <span class="orange-text">latvia</span></p>
+        </li>
+      </ul>
+    </div>
+    <div class="footer-middle">
+      <p>made by <span class="orange-text">MOC</span></p>
+    </div>
+    <div class="footer-right">
+      <h1>F.A.Q</h1>
+    </div>
+  </section>
+</body>
+<script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+    showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+    showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}    
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    }
+</script>
+
+</html>
