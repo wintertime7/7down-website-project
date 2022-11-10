@@ -1,6 +1,6 @@
 .top-view {
   min-height: 100vh;
-  background-image: url('https://i.gifer.com/2swA.gif');
+  background-image: url('/images/bg-main.webp');
   background-size: cover;
   display: flex;
   flex-direction: column;
