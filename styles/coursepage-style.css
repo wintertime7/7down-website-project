@@ -1,3 +1,7 @@
+body {
+  background-image: url('../images/bg-main.webp');
+}
+
 .course-top {
   display: flex;
   flex-direction: column;
